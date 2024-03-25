@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.3/css/bootstrap.min.css">
+    <script src="webjars/bootstrap/5.3.3/js/bootstrap.bundle.js"></script>
+    <title>Login page</title>
+</head>
+<body>
+    <div class="row mt-3">
+        <div class="col-md-6 offset-3">
+            <div class="card">
+                <div class="card-header" >Authentification</div>
+                <div class="card-body">
+                    <form class="w-full max-w-sm" method="post" th:action="@{/login}">
+
+                        <div>
+                            <label class="col-form-label"> UserName:</label>
+                            <input type="text" name="username" id="username" placeholder="userName">
+                        </div>
+                        <div>
+                            <label class="col-form-label"> Password:</label>
+                            <input type="password" id="password" name="password" >
+                        </div>
+                        <div>
+                            <label class="col-form-label"> Remeber Me:</label>
+                            <input type="checkbox" name="remember-me">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
