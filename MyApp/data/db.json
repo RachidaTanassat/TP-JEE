@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "computer",
+      "price": 5600,
+      "checked": false
+    },
+    {
+      "id": "2",
+      "name": "Printer",
+      "price": 9600,
+      "checked": true
+    },
+    {
+      "id": "3",
+      "name": "computer",
+      "price": 5600,
+      "checked": true
+    },
+    {
+      "id": "948d",
+      "name": "souris",
+      "price": "20",
+      "checked": false
+    },
+    {
+      "id": "bc29",
+      "name": "a",
+      "price": "1233",
+      "checked": true
+    },
+    {
+      "id": "2764",
+      "name": "a",
+      "price": "123",
+      "checked": true
+    },
+    {
+      "id": "cac1",
+      "name": "a",
+      "price": "345",
+      "checked": true
+    },
+    {
+      "id": "1749",
+      "name": "a",
+      "price": "345",
+      "checked": true
+    },
+    {
+      "id": "47ab",
+      "name": "a",
+      "price": "345",
+      "checked": true
+    },
+    {
+      "id": "b7d8",
+      "name": "a",
+      "price": "345",
+      "checked": true
+    },
+    {
+      "id": "1705",
+      "name": "a",
+      "price": "345",
+      "checked": true
+    },
+    {
+      "id": "0808",
+      "name": "a",
+      "price": "345",
+      "checked": true
+    }
+  ]
+}
